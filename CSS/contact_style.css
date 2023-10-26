@@ -1,0 +1,160 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+body{
+    text-decoration: none;
+    font-family:monospace;
+    height:fit-content;
+}
+.nav{
+    width: 100vw;
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    background-color: rgb(10,10,10);
+}
+.logo{
+    width:5vw;
+}
+.logo:hover{
+    transform: scale(1.2);
+}
+.navatas{
+    padding-left: 5vw;
+    padding-right: 5vw;
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+    justify-content: space-between;
+    margin: 10px;
+}
+.navbawah{
+    padding-left: 4%;
+    padding-right: 4%;
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+}
+.isi_navbawah{
+    text-decoration: none;
+    height: 35px;
+    width: 150px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    font-family:monospace;
+}
+.isi_navbawah:hover{
+    background-color: rgb(60,60,60);
+}
+.space{
+    height: 3vh;
+}
+.form_space{
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to bottom left, rgba(200, 200, 200, 0), rgba(200, 200, 200, 0.386)),url("../Assets/wallpaper2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:100%;
+    justify-content: center;
+}
+.form_isi{
+    margin-top: 20vh;
+    margin-bottom: 10vh;
+    padding: 2em 6em 2em 6em;
+    background-color: rgba(77, 77, 77, 0.7);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form_atas{
+    color: white;
+    font-size: 0.7vw;
+    justify-content: center;
+}
+.form_bawah{
+    display: flex;
+    flex-direction: column;
+    padding: 5vw;
+    height: 60%;
+    justify-content: space-around;
+    font-size: 15px;
+    justify-content: center;
+    color: white;
+}
+.name, .gender, .phone, .email, .choose{
+    margin-bottom: 7%;
+    padding-left : 1em;
+    align-items: center;
+}
+.choose, .gender{
+    margin-left: 5px;
+}
+#name, #phone, #email{
+    height: 3vh;
+    width: 100%;
+}
+.space_submit{
+    display: flex;
+    justify-content: center;
+    margin-left: 1vw;
+}
+.submit{
+    font-family: monospace;
+    padding: 1em;
+    font-size: 14px;
+    justify-content: center;
+}
+.submit:hover{
+    background-color: rgba(155, 155, 155, 0.395);
+}
+.footer{
+    width: 100vw;
+    height: 7vw;
+    background-color: black;
+}
+.footer_atas{
+    padding-top: 15px;
+    padding-left: 1vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+}
+
+.footer_bawah{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; 
+    background-color: black;
+}
+.logo2{
+    width: 4vw;
+    margin-right: 0.5%;
+    justify-content: center;
+}
+.footer_word{
+    font-family: monospace;
+    font-size: 1vw;
+    color: white;
+    margin-right: 0.5%;
+    text-decoration: none;
+    justify-content: center;
+}
+.logo_sosmed{
+    display: flex;
+    flex-direction: row;
+    font-size: 2vw;
+    margin-right: 0.5%;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    justify-content: center;
+}
